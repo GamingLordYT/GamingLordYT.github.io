@@ -200,9 +200,46 @@ video {
 		
 
    		/* Footer style */
-footer {
-	text-align:center;
-	background-color:#C0c0c0;
-	color:#0000cd;
+
+#footer {
+	background-image: url(Icons/footer-bg.jpg) no-repeat;
+	background-color:black;
+	clear: both;
+	color: White;
+	display: block;
+	height: 100px;
+	padding-top: 30px;
+	text-align: center;
+	width: auto;
+}
+
+#footer a:link { 
+	color: green;
+	font-weight: bold;
+	text-decoration: none;
+}
+	
+#footer a:visited { 
+	color:red;
+	font-weight: bold;
+	text-decoration: none;	
+}
+	
+#footer a:hover, #footer a:active { 
+	color: yellow;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.footer-bg {
+	 background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 	0, 0, 0.8)) ,
+	 url('Icons/footer-bg.jpg');
+	 /*add your desire image src path here.*/
+    background-size: cover;
+    width: 100%;
+    height: auto;
 	}
-		
+
+.site-footer .sidebar-container {
+	background:none !important;
+	}
